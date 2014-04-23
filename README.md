@@ -17,14 +17,7 @@ date:   2014-04-18 17:00:00
 post_author: Dan Bernier
 ---
 ````
-
 3. Write the rest of your post in markdown.
 4. To see how it looks, run: `jekyll serve --port 5002 -w` and head over to that host & port.
 
 Lots more info about this is available from [Jekyll](http://jekyllrb.com/docs/posts/)
-~                                                                                                                                                                                                      
-~                                                                                                                                                                                                      
-~                                                                                                                                                                                                      
-~                                                                                                                                                                                                      
-~                                                                                                                                                                                                      
-~                                                         
