@@ -24,3 +24,5 @@ Some of my favorite parts:
   - I <3 doing this.
 - "If you don't understand the cause of the problem, it's not fixed, because you can't predict when it might come up again."
 NB: this doesn't always mean you have to chase a bug to its root. Sometimes it's ok to move on - but be aware that you're on thin ice.
+
+:wq

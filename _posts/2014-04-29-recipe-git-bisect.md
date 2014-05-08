@@ -46,9 +46,9 @@ Eventually, it will have bisected back to the source of the problem, producing o
     commit 3f23680fefb5302c780ccc68b5d3006e9f37dd92
     Author: He Who Shall Not Be Named <voldemort@example.com>
     Date:   Wed Apr 23 11:40:48 2014 -0400
-    
+
         just change something small, no big deal... honest!
-    
+
     :040000 040000 088559324ff27ec7be6967e8c50934a9837b8f55 e7f89bede815904bb79d5b01807e4e01c8378f14 M      app
     bisect run success
 
@@ -72,3 +72,5 @@ Good hunting!
 
 * `man git-bisect`
 * [Git bisect saves the day](http://blog.boombatower.com/git-bisect-saves-the-day)
+
+:wq

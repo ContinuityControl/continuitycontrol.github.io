@@ -24,3 +24,5 @@ that I thought was interesting:
 > to come up with a solution, and this is where many of our best programs have
 > come from. Anything can be changed. We aren’t victim to anyone. We own the
 > culture.”
+
+:wq
