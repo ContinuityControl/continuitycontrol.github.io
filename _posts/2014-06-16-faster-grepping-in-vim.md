@@ -16,3 +16,5 @@ From [our dotfiles](https://github.com/ContinuityControl/dotfiles/commit/299554f
     nnoremap K :Ggrep "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 Thanks to [Nathan Smith](https://github.com/smith) from Chef for showing it to us!
+
+:wqa
