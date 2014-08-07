@@ -73,8 +73,8 @@ We were using a block that would evaluate new every time.
 Once we changed it back to using the method, we were good to go again.
 
 ```ruby
-describe 'A test that now uses message chains' do
-  it 'fails mysteriously' do
+describe 'A test that now uses message chains and return' do
+  it 'works just right' do
     complex_model = FactoryGirl.create(:complex_model)
     allow(complex_model).to receive_message_chain(:complex_parent_model, :to_xml).and_return(complex_model.to_xml)
     # Rock on! ^
