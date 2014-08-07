@@ -11,6 +11,7 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 
 1. Clone this repo
 2. `cd` into the dir, and `$ bundle install`
+3. `jekyll serve --port 9001`
 
 ## How to Write a Blog Post
 
