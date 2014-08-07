@@ -16,7 +16,8 @@ Our test was using `stub_chain` and thus needed to be updated.
 describe 'A test that uses stub chains' do
   it 'gets a deprecation warning' do
     complex_model = FactoryGirl.create(:complex_model)
-    complex_model.stub_chain(:complex_parent_model, :to_xml).and_return(complex_model.to_xml)
+    complex_model.stub_chain(:complex_parent_model, :to_xml).
+      and_return(complex_model.to_xml)
     # This is line needs to get updated ^
 
     complex_model.related_models << FactoryGirl.build(:related_model)
@@ -41,7 +42,8 @@ We then decided to update the test to match the docs as closely as possible.
 describe 'A test that now uses message chains' do
   it 'fails mysteriously' do
     complex_model = FactoryGirl.create(:complex_model)
-    allow(complex_model).to receive_message_chain(:complex_parent_model, :to_xml) { complex_model.to_xml }
+    allow(complex_model).to receive_message_chain(:complex_parent_model, :to_xml)
+      { complex_model.to_xml }
     # Yay! We should be good to go! ^
 
     complex_model.related_models << FactoryGirl.build(:related_model)
@@ -76,7 +78,8 @@ Once we changed it back to using the method, we were good to go again.
 describe 'A test that now uses message chains and return' do
   it 'works just right' do
     complex_model = FactoryGirl.create(:complex_model)
-    allow(complex_model).to receive_message_chain(:complex_parent_model, :to_xml).and_return(complex_model.to_xml)
+    allow(complex_model).to receive_message_chain(:complex_parent_model, :to_xml).
+      and_return(complex_model.to_xml)
     # Rock on! ^
 
     complex_model.related_models << FactoryGirl.build(:related_model)
