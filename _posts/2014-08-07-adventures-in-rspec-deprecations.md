@@ -18,7 +18,7 @@ describe 'A test that uses stub chains' do
     complex_model = FactoryGirl.create(:complex_model)
     complex_model.stub_chain(:complex_parent_model, :to_xml).
       and_return(complex_model.to_xml)
-    # This is line needs to get updated ^
+    # This line needs to get updated ^
 
     complex_model.related_models << FactoryGirl.build(:related_model)
     complex_model.save!
