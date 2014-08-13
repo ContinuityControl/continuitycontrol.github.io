@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Internship Experience - Spencer"
-date:   2014-08-07 15:45:00
+date:   2014-08-13 15:45:00
 post_author: Spencer Brown
 ---
 
