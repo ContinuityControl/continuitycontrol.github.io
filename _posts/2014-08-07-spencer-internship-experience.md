@@ -5,7 +5,7 @@ date:   2014-08-13 15:45:00
 post_author: Spencer Brown
 ---
 
-**My Key Learning Takeaways**
+##My Key Learning Takeaways
 
 * vim/wemux
 * Git flow
@@ -14,7 +14,7 @@ post_author: Spencer Brown
 * How to investigate problems in an existing code base
 * "implementation details" --> how to stay focused on the right level of detail
 
-**Why I chose to accept Continuity's offer (potential insight for things to stress in future interviews/talks with candidates)**
+##Why I chose to accept Continuity's offer (potential insight for things to stress in future interviews/talks with candidates)
 
 * My primary goal for the summer was to maximize my learning. I thought I could best achieve this at a small company where I could wear a variety of hats and have a direct involvement in solving key problems. I received offers from two small companies (Continuity and a company in Indianapolis). Here's why I chose Continuity:
   * Opportunities to work with full-time engineers:
@@ -24,7 +24,7 @@ post_author: Spencer Brown
 
 
 
-**What was done well**
+##What was done well
 
 * Everyone was welcoming
   * Everyone I met from Continuity was incredibly welcoming. Dan picking me up from the airport, Zach inviting me to hang out, and receiving sprited introductions to everyone in the office were all fantastic. When I asked Jim for a ride to Kent for the trip to Marnie's parents' place, he said, "Of course! You're part of the family now!" It really felt that way, and that was an awesome feeling.
@@ -37,7 +37,7 @@ post_author: Spencer Brown
 * I was able to tackle a diverse spread of problems
   * Having the opportunity to work on AWS devops, bootstrap/front-end, and SQL in addition to Ruby/Rails was awesome.
 
-**Recommendations**
+##Recommendations
 
 * Continue doing things from the 'What was done well' section.
 * Continue including interns in meetings, but make expectations clearer. At first, I wasn't sure if my opinions were welcome.
@@ -50,6 +50,6 @@ post_author: Spencer Brown
   * Have Andy give his intro to interns (earlier)
   * Doing db setup/pairing setup/etc. on the first day (rather than beforehand) felt hectic to me. It's possible that this is a common onboarding practice and I just haven't had exposure to it, but I would recommend having this stuff set up before an employee's first day.
 
-**Wrap up**
+##Wrap up
 
 * This summer was fantastic. Coming in, I felt like I held relatively high expectations regarding how much I would like the team and how much I would learn. Going out, I feel like all of my expectations have been significantly exceeded. You guys were way more awesome than I could have imagined and looking back, I realize that I've learned an enormous amount of information spanning from Mediterranean food to variable hoisting. I'm confident that this summer will prove to be an extremely valuable experience for me in the future. It sounds like Continuity has a very promising future and I'm looking forward to seeing its continued success. Best of luck to all of you in your Continuity journeys! Thanks for being such welcoming and excellent mentors over the course of the past twelve weeks!
