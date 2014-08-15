@@ -34,7 +34,7 @@
 
 <div id="index">
   <h1>{{ page.title }}</h1>
-  {% for post in site.posts %}  
+  {% for post in site.posts %}
   {% unless post.next %}
     <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
@@ -44,11 +44,23 @@
         <h3>{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
-    <article>
+    <article class="summary-post">
+      {% if post.author %}
+        {% assign author = site.data.authors[post.author] %}{% else %}{% assign author = site.owner %}
+      {% endif %}
+      <div class="author-post">
+        {% if author.avatar contains 'http' %}
+        <img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
+      {% else %}
+      <img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
+        {% endif %}
+      </div>
+
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+
         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
     </article>
@@ -62,6 +74,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>
