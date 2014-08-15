@@ -1,5 +1,56 @@
-name: Continuity Control Engineering
-markdown: redcarpet
-pygments: true
-description: Helping Save Community Financial Institutions
-url: http://engineering.continuity.net
+# Site wide configuration
+
+title:            Continuity Control Engineering
+locale:           en_US
+url:              http://engineering.continuity.net
+description:      Helping Save Community Financial Institutions
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+
+# Site owner
+owner:
+  name: Continuity Control
+  avatar: nu.png
+  bio: Helping Save Community Financial Institutions
+  email:
+  disqus-shortname:
+  twitter: ContinuityCTRL
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ContinuityControl
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: company/continuity-control
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

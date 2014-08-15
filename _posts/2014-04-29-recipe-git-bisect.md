@@ -2,7 +2,7 @@
 layout: post
 title:  "Recipe: git bisect"
 date:   2014-04-29 20:43:00
-post_author: Benjamin Oakes
+author: ben_oakes
 ---
 
 Git ships with an awesome, underused utility called `git-bisect`.  I had a bug to track down today that already had a spec, so it was a perfect fit.  Normally our continuous integration (CI) service would have alerted us earlier, but unfortunately the failure was masked by another problem.

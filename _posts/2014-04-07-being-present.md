@@ -2,7 +2,7 @@
 layout: post
 title:  "Being Present and Productive"
 date:   2014-04-07 09:00:00
-post_author: Zach Morek
+author: zach_morek
 ---
 
 At Continuity Control, we're always concerned with being our most productive and happy selves. A few of us have spent some time studying meditation and came across this talk from last year's Burlington Ruby Conf.

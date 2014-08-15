@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatically Upgrade Ruby 1.8 Hashes"
 date:   2014-07-01 09:00:00
-post_author: Dan Bernier
+author: dan_bernier
 ---
 
 If you have a code base that started before Ruby 1.9, it probably still has

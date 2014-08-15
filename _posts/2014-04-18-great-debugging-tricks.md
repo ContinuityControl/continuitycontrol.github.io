@@ -2,7 +2,7 @@
 layout: post
 title:  "Great Debugging Tricks"
 date:   2014-04-18 17:00:00
-post_author: Dan Bernier
+author: dan_bernier
 ---
 
 I normally don't care for sharing slide decks, because so much context is removed, but this one was carefully prepared for virality, and the context-free vacuum of space. It's so good, even without context, because so many slides are terminals.

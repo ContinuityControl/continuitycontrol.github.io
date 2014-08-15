@@ -2,7 +2,7 @@
 layout: post
 title:  "Faster Grepping in Vim"
 date:   2014-06-16 22:45:00
-post_author: Benjamin Oakes
+author: ben_oakes
 ---
 
 Hat tip to Thoughtbot's article, [Faster Grepping in Vim](http://robots.thoughtbot.com/faster-grepping-in-vim).

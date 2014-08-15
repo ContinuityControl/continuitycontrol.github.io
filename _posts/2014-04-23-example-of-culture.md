@@ -2,7 +2,7 @@
 layout: post
 title:  "An Example of Culture"
 date:   2014-04-23 16:00:00
-post_author: Dan Bernier
+author: dan_bernier
 ---
 
 You see lots of these posts about how culture is most-important, with anecdotes
