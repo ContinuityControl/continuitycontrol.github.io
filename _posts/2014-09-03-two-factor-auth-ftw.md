@@ -65,8 +65,8 @@ you lose (or break) the "something you have".  These codes should be
 printed and kept safe in a secure location, like a safe or a safe
 deposit box. (Remember those?)
 
-The victims of the recent AppleID hack could have enabled two-factor
-authentication and saved themselves a lot of embarassment and grief.  So
+[^1]<s>The victims of the recent AppleID hack could have enabled two-factor
+authentication and saved themselves a lot of embarassment and grief.</s>  So
 what are you waiting for?  Go enable two-factor auth!
 
 ### P.S.
@@ -75,4 +75,13 @@ If you're wondering about Continuity Control supporting two-factor auth,
 we plan on adding it as a per-client or per-user feature by the end of
 this year.  Keep you eye out for this feature announcement!
 
+
+### P.P.S.
+
+The [password list](https://raw.githubusercontent.com/hackappcom/ibrute/master/passlist.txt) used for the hack is laughable.  In addition to Two-factor authentication these users need a lesson in [choosing good passwords](http://www.bu.edu/infosec/howtos/how-to-choose-a-password/)
+
 ##### :wq
+
+
+[^1]: Ben pointed out that Two-factor auth may not be available for the Apple service used for the attack.  I've tried to find a definitive answer on this but no luck.
+
