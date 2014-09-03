@@ -25,8 +25,8 @@ loss via brute force login.
 Two-factor authentication for your online accounts involves you, as an
 Account holder, knowing two types of information:
 
-  * Something only you know (e.g., password, security questions);
-  * Something only you have (e.g., ATM card, smart card, mobile phone);
+  * Something only you know (e.g., password, security questions)
+  * Something only you have (e.g., ATM card, smart card, mobile phone)
 
 You're already using passwords to sign into your accounts, the second
 factor is something you have.  Two common options are Soft Tokens, time
@@ -39,7 +39,7 @@ can be a bit of a pain when changing phones but work regardless of
 internet/cell connectivity.  For most, SMS tokens are the best option
 but if you're a power user consider using a Soft Token like [Google
 Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)
-or [Authy](https://www.authy.com/consumers)
+or [Authy](https://www.authy.com/consumers).
 
 If you're interested in more detail,
 [Wikipedia's Multi-Factor authentication
@@ -62,8 +62,8 @@ two factor auth:
 _IMPORTANT!_ Any service that offers two-factor auth should also provide
 backup codes that can be used to restore access to your account should
 you lose (or break) the "something you have".  These codes should be
-printed and kept safe in a secdure location, like a safe or a safe
-deposit box (remember those!)
+printed and kept safe in a secure location, like a safe or a safe
+deposit box. (Remember those?)
 
 The victims of the recent AppleID hack could have enabled two-factor
 authentication and saved themselves a lot of embarassment and grief.  So
@@ -71,6 +71,8 @@ what are you waiting for?  Go enable two-factor auth!
 
 ### P.S.
 
-If you're wondering about Continuity Control supporting two-factor auth we plan on adding it as a per client or per user feature by the end of this year.
+If you're wondering about Continuity Control supporting two-factor auth,
+we plan on adding it as a per-client or per-user feature by the end of
+this year.  Keep you eye out for this feature announcement!
 
 ##### :wq
