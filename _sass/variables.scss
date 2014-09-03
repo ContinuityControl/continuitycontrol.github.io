@@ -34,6 +34,12 @@ $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
+// Article Links
+$articlelinkcolor 		    : #71ba4e;
+$articlelinkcolorhover  	: darken($articlelinkcolor, 10);
+$articlelinkcolorvisited  : lighten($articlelinkcolorhover, 20);
+$articlelinkcolorfocus  	: darken($articlelinkcolorvisited, 10);
+
 // Media Queries
 $micro            : "only screen and (min-width: 30em)";
 $small            : "only screen and (min-width: 37.5em)";
