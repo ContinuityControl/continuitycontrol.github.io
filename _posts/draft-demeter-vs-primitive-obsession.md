@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Between the Law of Demeter and Primitive Obsession"
-date:   2014-08-07 15:00:00
+date:   2014-08-29 12:00:00
 author: dan_bernier
 ---
 
@@ -19,6 +19,7 @@ code that knows too much about everything else.
 
 ![You see much, line of code. TOO much.](/images/you-see-much.gif)
 
+But what's the flip-side of the Law of Demeter?
 ~ ~ ~
 
 Let's look at some code - the venerable rails Blog example. We want to greet
@@ -70,6 +71,12 @@ encouragement to authors who haven't blogged much lately? If `greet_user` takes
 a String, we'll have to pass the number of recent blog posts as another
 parameter, or revert to passing the user.
 
+(Before you cry "[YAGNI](http://c2.com/cgi/wiki?YouArentGonnaNeedIt)," I'm not
+saying we should implement features we don't need, I'm saying let's _think
+about_ ways it might change, and consider the impact those changes would have
+on our code. Code that changes less is probably better code. Let's not paint
+ourselves into a corner.)
+
 This is starting to look like [primitive
 obsession](http://sourcemaking.com/refactoring/primitive-obsession): using
 primitive, built-in types like Strings and Integers instead objects closer to
@@ -79,7 +86,15 @@ of data called a _user_ that holds related data together, that you can think of
 as one thing.
 
 [This plays into the Flexibility/Usability trade-off, and how interfaces
-are about psychological chunking.]
+are about psychological chunking.] 
+(There's actually a related design principle called the [Flexibility-Usability
+tradeoff](http://en.wikipedia.org/wiki/Flexibility-usability_tradeoff), that
+states that the more flexible something is, the harder it is to use, and vice
+versa. Imagine TV remotes with 3 buttons, with 15 buttons, with 50 buttons: a
+3-button remote will be easy to use, but it can only do too many things, and a
+50-button remote will do ALL the things, but it's harder to use. Put another
+way, I'm fond of saying that the flip-side to having control over something
+means that you HAVE TO control it.)
 
 So: if we pass a large structure, we have to _understand_ the structure to find
 what we want. If we pass unstructured data, everything is ad-hoc. (Can you
@@ -88,14 +103,6 @@ imagine passing parameters as an array, and finding them by index?)
 Objects lend structure to our data. Too much structure is complicated, and too
 little is clumsy. If we find the right amout of structure, we
 
-
-
-
-Does this sound like [YAGNI](http://c2.com/cgi/wiki?YouArentGonnaNeedIt)? It
-shouldn't. YAGNI says: don't implement a feature until you need it. I'm not
-saying we should implement a feature we don't need yet, I'm saying let's
-organize the code in a way that lets us change it in the future. Let's not
-paint ourselves into a corner.
 
 
 
@@ -120,7 +127,8 @@ But the problem with the Demeter violation is that it tangles us up.
 
 My point isn't that you should always pass an object, or an
 ActiveRecord::Model, or only access properties from a model, or never pass
-primitives.
+primitives. My point is certainly not that Law of Demeter is a bad thing, and
+that you should stop worrying about it.
 
 My point is, think about Demeter and Primitive Obsession like Scylla and
 Charybdis, standing on either side of the channel. You don't want your ship
