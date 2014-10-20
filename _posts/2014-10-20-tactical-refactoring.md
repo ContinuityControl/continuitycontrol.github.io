@@ -5,8 +5,6 @@ date:   2014-10-20 09:30:00
 author: dan_bernier
 ---
 
-# Refactoring Tactics
-
 Refactoring happens in many small steps.
 
 Ever heard this? "This code sucks. We need to refactor." It sounds like they'll
