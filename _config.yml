@@ -2,7 +2,7 @@
 
 title:            Continuity Control Engineering
 locale:           en_US
-url:              http://engineering.continuity.net
+#url:              http://engineering.continuity.net # having URL causes weird https related issues
 description:      Helping Save Community Financial Institutions
 
 
