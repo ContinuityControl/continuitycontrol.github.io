@@ -12,26 +12,14 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 1. Clone this repo
 2. `cd` into the dir, and `$ bundle install`
 
-## How to Write a Blog Post and Preview It
+## Full Cycle Blog Posting
 
-* Start a file under `/_posts`, named YYYY-MM-DD-your-slug-goes-here.md
-* Add a block to the top of the file, like this:
-
-```
----
-layout: post
-title:  "Great Debugging Tricks"
-date:   2014-04-18 17:00:00
-post_author: Dan Bernier
----
-```
-
-* Write the rest of your post in markdown.
+* Create your draft: `octopress new draft 'Your title goes here'`
+* Open your file in `_drafts/your-title-goes-here.md`
+* Write your post in md
 * Preview with: `octopress serve --drafts --port 9001 --watch`
-
-## How To Publish
-
-* `git push origin master`
+* Publish with: `octopress publish _drafts/your-title-goes-here.md`
+* Commit and push
 
 ## How to Change the CSS
 
