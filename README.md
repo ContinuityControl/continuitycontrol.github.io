@@ -27,7 +27,7 @@ post_author: Dan Bernier
 ```
 
 * Write the rest of your post in markdown.
-* Preview with: `jekyll serve --port 9001 -w`
+* Preview with: `octopress serve --drafts --port 9001 --watch`
 
 ## How To Publish
 
