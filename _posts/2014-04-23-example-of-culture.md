@@ -5,13 +5,9 @@ date:   2014-04-23 16:00:00
 author: dan_bernier
 ---
 
-You see lots of these posts about how culture is most-important, with anecdotes
-of youthful, energized companies where Everything is Awesome®.
+You see lots of these posts about how culture is most-important, with anecdotes of youthful, energized companies where Everything is Awesome®.
 
-[This
-post](http://techcrunch.com/2014/04/12/culture-eats-strategy-for-breakfast/)
-has all that, but it also has a clear, definite example of a good core value,
-that I thought was interesting:
+[This post](http://techcrunch.com/2014/04/12/culture-eats-strategy-for-breakfast/) has all that, but it also has a clear, definite example of a good core value, that I thought was interesting:
 
 > At first, she explained, the primary focus was testing for humility during the
 > hiring process, and they had a checklist to enforce their “no assholes” rule.
