@@ -1,5 +1,5 @@
 # Default extension for new posts and pages
-post_ext: markdown
+post_ext: md
 page_ext: html
 
 # Default templates for posts and pages
