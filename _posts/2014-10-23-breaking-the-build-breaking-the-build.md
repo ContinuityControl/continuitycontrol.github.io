@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Breaking the Build. Breaking the Build."
+date: 2014-10-23T20:22:34+00:00
+author: zach_morek
 modified:
 categories:
-excerpt:
+excerpt: Compile your assets before your feature specs to avoid timeouts!
 tags: []
 image:
   feature:
@@ -11,7 +13,7 @@ image:
 
 ## TL; DR
 
-Compile your assets before your feature specs to avoid timeouts.
+Compile your assets before your feature specs to avoid timeouts!
 
 ## Breaking the law, breaking the law
 
