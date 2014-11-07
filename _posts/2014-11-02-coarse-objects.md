@@ -29,13 +29,26 @@ How do we break our apps, our problems, into objects to do the work for us?
 
 This used to be a pretty common theme of software books, back in the 90's and 2000's. 
 
-There are a few schools of thought. Two big ones are Domain-Driven Design, where, loosely, your Domain Model is a bunch of classes that represent some of the big nouns in your application's Domain. It provides a raft of other patterns, like Repository, Identity Mapper, and Unit of Work, to support the actual application part.
+There are a few schools of thought. One big one is Domain-Driven Design, where, loosely, your Domain Model is a bunch of classes that represent some of the big nouns in your application's Domain. It provides a raft of other patterns, like Repository, Identity Mapper, and Unit of Work, to support the actual application part.
 
-An approach that used to be common was to throw as many Gang-of-Four Design Patterns at your app as you could. I don't recommend this approach. It DOES, however, teach you a lot of patterns along the way, and a programmer studying design patterns is like an architect visiting Rome or Greece, or an author reading a novel.
+Another approach that used to be common was to throw as many Gang-of-Four Design Patterns at your app as you could. I don't recommend this approach - the artifice overwhelms the application - but it DOES teach you a lot of patterns along the way, and you can learn a lot about object oriented design that way.
+
+But there's one approach I know that's useful, easy to explain, and doesn't encourage you to over-engineer.
 
 ## Responsibility-Driven Design
 
-Another approach that I've found really useful is responsibility-driven design. It's a basic idea: design objects around responsibilities, jobs that have to be done.
+Object-oriented programming is about breaking a problem into tasks that can be carried out by objects working together. It's more like divvying up work that we think: one person collects the dishes, another washes them, a third dries them, and a fourth puts them away. Each person has their job, their role, their responsibility, and to make it work correctly, you need to carefully manage how the dishes move from one person to the next.
+
+Responsibility-Driven Design focuses on defining those responsibilities, and creating objects to fulfill them.
+
+That sounds a bit abstract, and the RDD books offer a lot of suggestions for how you actually DO this, but the most useful part of it is that idea that you can anthropomorphize your objects. Once you start thinking about breaking the work up, and having objects that can do one thing that other objects need, the objects become a little easier to see. As Rebecca Wirfs-Brock says in "Designing Object-Oriented Software," "Finding or creating these objects is a problem of structuring knowledge and activities. [Object-oriented programming's] goals are to find the objects and their connections."
+
+It's about figuring out who does what, and how they work together.
+
+
+-----------------
+
+It's a basic idea: design your objects around responsibilities, jobs that have to be done.
 
 First, some quotes! One from Rebecca Wirfs-Brock:
 
