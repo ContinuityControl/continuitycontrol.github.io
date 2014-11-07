@@ -5,19 +5,13 @@ date:   2014-11-02 14:00:00
 author: dan_bernier
 ---
 
-> Always design a thing by considering it in its next larger
-> context - a chair in a room, a room in a house, a house in an
-> environment, an environment in a city plan.  - Eliel Saarinen
+> Always design a thing by considering it in its next larger context - a chair in a room, a room in a house, a house in an environment, an environment in a city plan.  - Eliel Saarinen
 
-It's really important to get the boundaries between your objects right. To get the relationships between them arranged right.
+It's important to write good methods: short, not too many arguments, one level of abstraction.
 
-It's even more important than small methods, or not repeating yourself, or a lot of the other things we focus on.
+But it's even more important to get the boundaries and relationships between your objects right.
 
-If music is the space between the notes, then OO design is the space between the objects.
-
-Lots of advice for how to write good OO code focuses on the methods.  (Fowler, Metz' 4 rules, what else?)
-
-And methods are important!  But it's more important that your objects are right. 
+If music is the space between the notes, then object design is the space between the objects.
 
 # Why Is The Object Level Important?
 
