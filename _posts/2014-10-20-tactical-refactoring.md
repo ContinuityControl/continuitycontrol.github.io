@@ -28,7 +28,8 @@ A few days later, I went back to the administrator's section with one goal: make
 The refactoring was simple:
 
 1. I saved a copy of the admin layout, admin.html.erb, as admin_old.html.erb.
-2. I upgraded admin.html.erb to use the new assets. (At this point, all of the pages looked pretty broken.) 3. All the controllers in this section subclass a common controller, a kind of [layer supertype](http://martinfowler.com/eaaCatalog/layerSupertype.html). It specified `layout 'admin'`, and I kept it that way - but I added `layout 'admin_old'` to each controller that subclassed it.
+2. I upgraded admin.html.erb to use the new assets. (At this point, all of the pages looked pretty broken.) 
+3. All the controllers in this section subclass a common controller, a kind of [layer supertype](http://martinfowler.com/eaaCatalog/layerSupertype.html). It specified `layout 'admin'`, and I kept it that way - but I added `layout 'admin_old'` to each controller that subclassed it.
 
 That's it. Everything works the same as it did before, but the code is structured in a better way: any new controllers will use the new layout, and we can upgrade the others piecemeal, when we have spare time.
 
