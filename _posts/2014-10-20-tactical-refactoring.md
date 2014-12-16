@@ -39,8 +39,7 @@ Was that actually a good refactoring? Did I just make things worse, more confusi
 
 Google currently offers this definition of 'tactical' third, after two military ones:
 
-> (of a person or their actions) showing adroit planning; aiming at an end
-> beyond the immediate action.
+> (of a person or their actions) showing adroit planning; aiming at an end beyond the immediate action.
 
 "Aiming at an end beyond the immediate action." 
 
