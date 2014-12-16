@@ -19,6 +19,8 @@ How often has this happened: you have to add some feature to some part of your r
 
 You know how you decompose code into methods, and you worry whether this bit should go in _this_ method, or in _that_ one? How often do you worry which class the method should go in?
 
+Boundaries between objects are like a buffer, a firewall, a blast containment room. They're the walls of the isolation ward - they (help) keep problems with one object from infecting another.
+
 If your object structure is right, but your internal methods are crap, you can improve. It's easier to fine-tune private methods once your structure is right: if a good structure is roughed out, you can iron out wrinkles, refactor methods; tests are easier to write for an object that has clear boundaries and responsibilities. 
 
 But if you can only work at the method level, you'll usually add methods to existing classes, and your classes will get bigger. When they're too big for comfort, you won't know how to break them apart.
