@@ -52,3 +52,16 @@ Another good sign is that the pattern of cooperation between the objects is clea
 
 (Many extremely well-respected OO people say they write odd OO code, because they use immutable objects, instead of relying on side-effects. [Gary Bernhardt](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell), [Joshua Bloch](http://www.javaworld.com/article/2072958/immutable-java-objects.html), [Martin Fowler](http://devchat.tv/ruby-rogues/178-rr-book-club-refactoring-ruby-with-martin-fowler) all 
 http://www.amazon.com/Little-Java-Few-Patterns/dp/0262561158
+
+
+
+Links i've been looking at:
+http://cube-drone.com/2014_11_27-103_Pipes.html
+https://www.google.com/search?q=rich+hickey+java+final&oq=rich+hickey+java+final+&aqs=chrome..69i57.3747j0j7&client=ubuntu&sourceid=chrome&es_sm=93&ie=UTF-8
+http://www.ibm.com/developerworks/library/j-ft4/
+http://www.quora.com/Can-the-concepts-used-by-Rich-Hickey-for-the-Clojure-programming-language-be-modified-to-fit-the-Object-Oriented-paradigm
+http://blog.jayfields.com/2014/12/working-effectively-with-unit-tests.html
+https://leanpub.com/wewut
+http://jaoo.dk/dl/jaoo-aarhus-2009/slides/MichaelFeathers_WorkingEffectivelyWithLegacyCode2.pdf
+http://www.schneems.com/post/22192005006/legacy-concerns-in-rails/
+https://michaelfeathers.silvrback.com/detecting-shoved-code
