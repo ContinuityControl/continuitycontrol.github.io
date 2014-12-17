@@ -27,17 +27,11 @@ But if you can only work at the method level, you'll usually add methods to exis
 
 # So, How Do We Do This, Then?
 
-How do we break our apps, our problems, into objects to do the work for us?
+How do we break our applications, our problems, into objects to do the work for us?
 
-This used to be a pretty common theme of software books, back in the 90's and 2000's. 
+There are lots of ways to approach this. (There are lots of heavy books you can buy.) But a few simple, strong ideas, loosely held, should serve.
 
-There are a few schools of thought. One big one is Domain-Driven Design, where, loosely, your Domain Model is a bunch of classes that represent some of the big nouns in your application's Domain. It provides a raft of other patterns, like Repository, Identity Mapper, and Unit of Work, to support the actual application part.
-
-Another approach that used to be common was to throw as many Gang-of-Four Design Patterns at your app as you could. I don't recommend this approach - the artifice overwhelms the application - but it DOES teach you a lot of patterns along the way, and you can learn a lot about object oriented design that way.
-
-But there's one approach I know that's useful, easy to explain, and doesn't encourage you to over-engineer.
-
-## Responsibility-Driven Design
+One of those simple ideas is to organize your objects around responsibilities.
 
 Object-oriented programming is about breaking a problem into tasks that can be carried out by objects working together. It's more like divvying up work that we think: one person collects the dishes, another washes them, a third dries them, and a fourth puts them away. Each person has their job, their role, their responsibility, and to make it work correctly, you need to carefully manage how the dishes move from one person to the next.
 
