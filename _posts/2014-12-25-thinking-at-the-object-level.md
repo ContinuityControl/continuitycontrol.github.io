@@ -9,17 +9,21 @@ author: dan_bernier
 
 It's important to write good methods: short, not too many arguments, one level of abstraction.
 
+But it's even more important that your objects are organized well.
+
 But it's even more important to get the boundaries and relationships between your objects right.
 
 If music is the space between the notes, then object design is the space between the objects.
 
 # Why Is The Object Level Important?
 
-How often has this happened: you have to add some feature to some part of your rails app. You open the controller, open the view, and let's say there's a presenter involved, so you open that, too. You add the method to the presenter, call it from the view, and you're done. This works well for a while, but after a while, your presenter is HUGE. What happened? I think what happened is that you're not thinking about your code structure at the object level: you're taking the object structure for granted. Controller-Model-Presenter-View, and the View only calls methods in the Presenter.
+How often has this happened: you have to add some feature to some part of your rails app. You open the controller, open the view, and let's say there's a presenter involved, so you open that, too. You add the method to the presenter, call it from the view, and you're done. This works well for a while, but after a while, your presenter is HUGE. 
+
+What happened there? I think what happened is that you're not thinking about your code structure at the object level: you're taking the object structure for granted. Controller-Model-Presenter-View, and the View only calls methods in the Presenter.
 
 You know how you decompose code into methods, and you worry whether this bit should go in _this_ method, or in _that_ one? How often do you worry which class the method should go in?
 
-Boundaries between objects are like a buffer, a firewall, a blast containment room. They're the walls of the isolation ward - they (help) keep problems with one object from infecting another.
+Boundaries between objects are like a buffer, a firewall, a blast containment room. They're the walls of the isolation ward - they (help) keep problems with one object from infecting another. This is why
 
 If your object structure is right, but your internal methods are crap, you can improve. It's easier to fine-tune private methods once your structure is right: if a good structure is roughed out, you can iron out wrinkles, refactor methods; tests are easier to write for an object that has clear boundaries and responsibilities. 
 
@@ -32,6 +36,10 @@ How do we break our applications, our problems, into objects to do the work for 
 There are lots of ways to approach this. (There are lots of heavy books you can buy.) But a few simple, strong ideas, loosely held, should serve.
 
 One of those simple ideas is to organize your objects around responsibilities.
+
+Responsibility-Driven Design is a good way to get started, because it's fairly anthropomorphic, and you can lean on your experience splitting up work between people in the real world.
+
+By simulating real-world interactions, you can get into the role, and really feel the interaction. This helps you _feel_ what the objects are doing, and clarifies their roles and responsibilities.
 
 Object-oriented programming is about breaking a problem into tasks that can be carried out by objects working together. It's more like divvying up work that we think: one person collects the dishes, another washes them, a third dries them, and a fourth puts them away. Each person has their job, their role, their responsibility, and to make it work correctly, you need to carefully manage how the dishes move from one person to the next.
 
