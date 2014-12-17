@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[DRAFT] Coarse Objects"
-date:   2014-11-02 14:00:00
+title:  "[DRAFT] Thinking at the Object Level"
+date:   2014-12-25 23:30:00
 author: dan_bernier
 ---
 
