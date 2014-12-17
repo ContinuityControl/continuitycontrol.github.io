@@ -103,37 +103,3 @@ The best part about this technique is that lots of real-world interactions we ha
 * Gregor Hohpe's [Starbucks Does Not Use Two-Phase Commit](http://www.eaipatterns.com/ramblings/18_starbucks.html)
 
 By simulating real-world interactions, you can get into the role, and really feel the interaction. This helps you _feel_ what the objects are doing, and clarifies their roles and responsibilities.
-
-## Some Familiar Examples of Thinking at the Object Level
-
-The Null Object pattern is a good example. It shows how to fix a problem - lots of similar nil checks - by adding a new kind of object, just for the nil cases.
-
-Presenters are another object-level pattern, one that shows how to keep view-specific logic out of your views AND your models.
-
-Patterns are still kind of taboo in the Ruby community, even after Russ Olsen's very good book on them. They're part of the baby that was in the Java-bathwater we hastily threw out. Which is a shame, because there's good stuff in there.
-
-## Some Less-Familiar Examples of Thinking at the Object Level
-
-### The Composite Pattern
-
-Talk about Appendix A & B, and recursion. Or, maybe this is the visitor pattern? Think about it.
-
-### The Template Pattern
-
-I don't like the template pattern much, because it requires a lot of shared knowledge between the subclass and the baseclass. I find the strategy pattern to be a
-
-# Don't We Do This Already?
-
-What about DRY? Demeter? SOLID? Don't we talk a lot about object design?
-
-It's true that these are concepts most ruby programmers know about.
-
-But they're principles, not patterns or design strategies. They won't help you design things, but they WILL tell you how you've done. Designing only by these principles is like flying by instruments - you can do it, but if you don't have to, why bother?
-
-# Why Don't We Do This Already?
-
-It's not that we don't talk about object structure or classes that much - we do - but it's easy for a new programmer to just focus on the method-level stuff. Flog and CodeClimate work at that level. Blog posts often talk about methods - maybe because it's easy to embed a short bit of code into a blog post. To talk about object-level design, you'd need a lot more code. Maybe we need a more-compact language for talking about objects and classes, and their relationships to each other. Maybe we should take another look at UML.
-
-(I think we talk about it less now partly because Rails is so opinionated: if there's one right way to do it, you don't have to figure anything out.)
-
-TDD is another reason we talk about this less. TDD is almost an un-technique: rather than design your objects, Test-Driven Design says write a test, make it pass, refactor the code, and then do it again. Keep doing that until your app is done. The tests will keep you honest, while the refactoring steps will let your object structure emerge.
