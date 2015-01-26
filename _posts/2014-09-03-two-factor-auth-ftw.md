@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Two-factor Auth, FTW!"
 date:   2014-09-03 12:00:00
 author: joel_nimety

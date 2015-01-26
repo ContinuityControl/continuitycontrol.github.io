@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Great Debugging Tricks"
 date:   2014-04-18 17:00:00
 author: dan_bernier

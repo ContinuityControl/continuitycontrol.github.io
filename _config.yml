@@ -1,5 +1,19 @@
 # Site wide configuration
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ''
+      type: drafts
+    values:
+      layout: post
+
 title:            Continuity Control Engineering
 locale:           en_US
 #url:              http://engineering.continuity.net # having URL causes weird https related issues

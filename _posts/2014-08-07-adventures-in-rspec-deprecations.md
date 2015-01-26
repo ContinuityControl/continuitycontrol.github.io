@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Adventures in RSpec Deprecations"
 date:   2014-08-07 15:00:00
 author: zach_morek

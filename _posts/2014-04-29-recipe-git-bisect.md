@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Recipe: git bisect"
 date:   2014-04-29 20:43:00
 author: ben_oakes

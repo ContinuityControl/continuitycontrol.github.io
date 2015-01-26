@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Breaking the Build. Breaking the Build."
 date: 2014-10-23T20:22:34+00:00
 author: zach_morek

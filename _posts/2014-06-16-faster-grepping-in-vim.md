@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Faster Grepping in Vim"
 date:   2014-06-16 22:45:00
 author: ben_oakes

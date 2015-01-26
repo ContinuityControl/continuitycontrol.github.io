@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "My Internship Experience - Spencer"
 date:   2014-08-13 15:45:00
 author: spencer_brown

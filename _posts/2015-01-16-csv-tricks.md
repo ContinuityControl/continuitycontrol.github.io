@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "CSV Tricks"
 date:   2015-01-16 23:00:00
 author: dan_bernier

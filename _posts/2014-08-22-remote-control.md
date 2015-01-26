@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Remote, Control"
 date:   2014-08-22 08:50:00
 author: joshua_miller

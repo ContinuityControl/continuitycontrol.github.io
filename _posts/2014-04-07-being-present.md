@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Being Present and Productive"
 date:   2014-04-07 09:00:00
 author: zach_morek

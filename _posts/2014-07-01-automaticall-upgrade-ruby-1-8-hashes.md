@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Automatically Upgrade Ruby 1.8 Hashes"
 date:   2014-07-01 09:00:00
 author: dan_bernier

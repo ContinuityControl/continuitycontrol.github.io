@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Thinking with Types: Value Objects"
 date:   2014-11-12 10:00:00
 author: dan_bernier

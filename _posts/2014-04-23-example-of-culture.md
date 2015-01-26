@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "An Example of Culture"
 date:   2014-04-23 16:00:00
 author: dan_bernier

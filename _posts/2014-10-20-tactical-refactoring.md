@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tactical Refactoring"
 date:   2014-10-20 09:30:00
 author: dan_bernier
