@@ -1,8 +1,16 @@
 ---
-title: Fractal Design Improvements
+title: Fractal Design Improvements / Gradual Elaboration
 author: dan_bernier
 excerpt: Grow your design gradually. Don't start with a huge foundation.
 ---
+
+![Candy bar evolution.](/images/candybar-evolution.png)
+
+([via](http://scandybars.tumblr.com/))
+
+When we have too much logic in our views, we extract presenters. When we have too much query logic in our presenters, we extract query objects.
+
+-------------
 
 I just finished a satisfying refactoring. The code is cleaner, its intent is clearer, and - maybe best of all - I feel like I really _understand_ things now. This new structure is so much better than the old mess, that I'd like to convince my team to adopt it as the new official team standard. Without this pattern, the code will grow unrestrained, and we'll just have to clean it out later; why let that happen? Why not just start with all the structure it'll eventually need?
 
@@ -23,6 +31,8 @@ We should've noticed when we first unit tested the presenter that the query logi
 [^dto]: Ok, we could've put the ID into the data transfer object, but it would only be there for the tests.
 
 ## TODO: Extracting a Query Object makes Testing Easier
+
+So we [extracted a class](http://refactoring.com/catalog/extractClass.html)
 
 ## TODO: It also makes the Presenter Simpler
 
