@@ -1,6 +1,7 @@
 ---
 title: Tidy Your Attributes with TinySweeper
 author: dan_bernier
+excerpt: It can be easy to clean up your model attributes.
 ---
 
 I hate seeing this:
@@ -54,7 +55,7 @@ The first draft of TinySweeper was a bit inelegant: it would alias your writer m
 
 [^space-methods]: That's right, methods with spaces in the name are legal - though you can't call it with the dot syntax. Try making some with `define_method`.
 
-Ruby 2.0 introduced us to the idea of prepending a module, which can help us out here. When you include a module, its methods are placed into the call-chain after the class, but before its superclass.
+Ruby 2.0 introduced us to the idea of prepending a module, which can help us out here. When you include a module, its methods are placed into the call-chain after the class, but before its superclass. Code like this:
 
 {% highlight ruby linenos %}
 module Extras
@@ -65,9 +66,11 @@ class Basics
 end
 {% endhighlight %}
 
+...sets up like this:
+
 ![](/images/module-include.png)
 
-If you prepend the module, its methods are placed into the call-chain BEFORE the current class.
+But if you prepend the module, its methods are placed into the call-chain *before* the current class:
 
 ![](/images/module-prepend.png)
 
