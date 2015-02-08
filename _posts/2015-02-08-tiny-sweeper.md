@@ -1,5 +1,6 @@
 ---
 title: Tidy Your Attributes with TinySweeper
+date:   2015-02-08 14:20:00
 author: dan_bernier
 excerpt: It can be easy to clean up your model attributes.
 ---
