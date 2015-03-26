@@ -4,7 +4,7 @@ date:   2014-04-07 09:00:00
 author: zach_morek
 ---
 
-At Continuity Control, we're always concerned with being our most productive and happy selves. A few of us have spent some time studying meditation and came across this talk from last year's Burlington Ruby Conf.
+At Continuity, we're always concerned with being our most productive and happy selves. A few of us have spent some time studying meditation and came across this talk from last year's Burlington Ruby Conf.
 
 [Fighting Burnout: Incorporating Rest Into the Software Development Workflow - Nick Cox - Burlington Ruby 2013](http://www.confreaks.com/videos/2621-btvruby2013-fighting-burnout-incorporating-rest-into-the-software-development-workflow)
 

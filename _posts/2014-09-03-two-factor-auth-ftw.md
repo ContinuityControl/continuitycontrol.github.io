@@ -40,7 +40,7 @@ _IMPORTANT!_ Any service that offers two-factor auth should also provide backup 
 
 ### P.S.
 
-If you're wondering about Continuity Control supporting two-factor auth, we plan on adding it as a per-client or per-user feature by the end of this year.  Keep your eye out for this feature announcement!
+If you're wondering about Continuity supporting two-factor auth, we plan on adding it as a per-client or per-user feature by the end of this year.  Keep your eye out for this feature announcement!
 
 
 ### P.P.S.

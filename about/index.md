@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Continuity Control
-tags: [about, Continuity Control, Continuity Control Engineering]
+title: About Continuity
+tags: [about, Continuity, Continuity Engineering]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
@@ -14,11 +14,11 @@ Our mission is to help community financial institutions survive and thrive by of
 
 ## History
 
-Continuity Control was founded in 2008 by distinguished technology, banking, and compliance specialists. Combining their expertise with decades of experience, directly impacted by regulators in the banking industry, enabled them to create the solution they'd always envisioned. Together they built a systemic method that provides community financial institution executives with a smarter approach to managing compliance.
+Continuity was founded in 2008 by distinguished technology, banking, and compliance specialists. Combining their expertise with decades of experience, directly impacted by regulators in the banking industry, enabled them to create the solution they'd always envisioned. Together they built a systemic method that provides community financial institution executives with a smarter approach to managing compliance.
 
 ## Overview
 
-We are a financial technology company, but our unique approach makes us much more than a software vendor. Continuity Control's solution effectively reduces the resources spent on compliance, ensures that your institution meets regulatory muster and insulates you from the cost of regulatory changes.
+We are a financial technology company, but our unique approach makes us much more than a software vendor. Continuity's solution effectively reduces the resources spent on compliance, ensures that your institution meets regulatory muster and insulates you from the cost of regulatory changes.
 
 ## Leadership
 

@@ -14,7 +14,7 @@ defaults:
     values:
       layout: post
 
-title:            Continuity Control Engineering
+title:            Continuity Engineering
 locale:           en_US
 #url:              http://engineering.continuity.net # having URL causes weird https related issues
 description:      Helping Save Community Financial Institutions
@@ -41,7 +41,7 @@ kramdown:
 
 # Site owner
 owner:
-  name: Continuity Control
+  name: Continuity
   avatar: nu.png
   bio: Helping Save Community Financial Institutions
   email:
