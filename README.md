@@ -12,6 +12,11 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 1. Clone this repo
 2. `cd` into the dir, and `$ bundle install`
 
+## One Time Setup
+
+* Add yourself to `_data/authors.yml`
+* Add your head-in-a-jar avatar to the `images` directory
+
 ## Full Cycle Blog Posting
 
 * Create your draft: `octopress new draft 'Your title goes here'`
