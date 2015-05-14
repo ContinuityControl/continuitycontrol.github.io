@@ -61,7 +61,7 @@
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <p title="{{ post.excerpt | strip_html }}">{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
     </article>
   {% endfor %}
