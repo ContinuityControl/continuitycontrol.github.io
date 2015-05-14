@@ -22,7 +22,7 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 * Create your draft: `octopress new draft 'Your title goes here'`
 * Open your file in `_drafts/your-title-goes-here.md`
 * Write your post in md
-* Preview with: `octopress serve --drafts --port 9001 --watch`
+* Preview with: `jekyll serve --drafts --host 0.0.0.0 --port YOUR_PORT --watch`
 * Publish with: `octopress publish _drafts/your-title-goes-here.md`
 * Commit and push
 
