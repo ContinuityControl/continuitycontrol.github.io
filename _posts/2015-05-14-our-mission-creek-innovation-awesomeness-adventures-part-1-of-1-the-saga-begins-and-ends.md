@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Our Mission Creek Innovation Awesomeness Adventures Part 1 of 1 (the Saga Begins (and Ends))"
+date: 2015-05-14T14:20:22-05:00
 author: tridar
 categories: conference
 excerpt: A brief peek into the lives of two female techno-adventurists and how we slayed the Clojure dragon and brought prosperity to the Tiger Team with knowledge from the Mission Creek Innovation conference
