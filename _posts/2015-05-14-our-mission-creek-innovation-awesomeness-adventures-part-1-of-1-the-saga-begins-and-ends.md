@@ -14,6 +14,8 @@ Good Morning Internet!
 
 Thanks to [Chef](https://www.chef.io/chef/) sponsoring tickets, we (Daria and Trish) were able to attend the Innovation section of the Mission Creek Festival in Iowa City, IA.  Mission Creek is a community based event that is focused on inspiring people with music, film, food, and writing. Most recently, i.e. last year, a BizTech/TechEntre component was added (which was the section we attended bee-tee-dubs).  Basically, the Mission Creek Festival is a celebration of all things in life worth having, which we were so lucky to be a part of this year.
 
+The Mission Creek Festival was put on by some awesome staff, but most awesomest of all was [Wes Beary](https://twitter.com/geemus) of [Heroku](https://www.heroku.com/). Without him, the Innovation portion of the festival would not have existed. He organized and ran the Innovation event this year, and gathered all of the great speakers. One fantastical job, Wes!
+
 
 The Innovation component focuses "[...] on how we can reach toward the future by building diversity, creating and maintaining communities. It highlights both hardships and successes that have made leaders successful."
   - [http://www.missionfreak.com/innovation/](http://www.missionfreak.com/innovation/)
