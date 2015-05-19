@@ -24,7 +24,7 @@ description:      Helping Save Community Financial Institutions
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -38,6 +38,7 @@ kramdown:
   toc_levels: 1..6
   use_coderay: true
   input: GFM
+  syntax_highlighter: rouge
 
 # Site owner
 owner:
