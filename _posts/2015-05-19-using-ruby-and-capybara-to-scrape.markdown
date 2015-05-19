@@ -21,7 +21,7 @@ image:
 
 ### The Setup
 
-```ruby
+{% highlight ruby linenos %}
 require 'csv'
 require 'capybara'
 require 'capybara/poltergeist'
@@ -42,11 +42,11 @@ class WebScraper
     new.scrape(&block)
   end
 end
-```
+{% endhighlight %}
 
 ### The Crawling
 
-```ruby
+{% highlight ruby linenos %}
 WebScraper.scrape do |page|
   page.visit 'http://google.com/search?q=foo'
 
@@ -64,11 +64,11 @@ WebScraper.scrape do |page|
     end
   end
 end
-```
+{% endhighlight %}
 
 ### The Parsing
 
-```ruby
+{% highlight ruby linenos %}
 csv_rows = []
 Dir.glob('search*.html').each do |file_path|
   page = File.open(file_path)
@@ -87,7 +87,7 @@ CSV.open('searches.csv', 'wb') do |csv|
     csv << csv_row
   end
 end
-```
+{% endhighlight %}
 
 ## Random Thoughts That May Be Helpful
 
