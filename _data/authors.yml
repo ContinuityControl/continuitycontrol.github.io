@@ -76,3 +76,10 @@ tridar:
   name: "Daria Tan && Tricia Ball"
   avatar: dev+dtan+tball.png
   bio: Born as interracial siamese twins and therefore do everything in pairs, including blogging. It's a problem, we know. We are the twinkie of the engineering team.
+
+tricia_ball:
+  name: Tricia Ball
+  email: tball@continuity.net
+  avatar: tricia_ball.jpg
+  twitter: tricialball
+  linkedin: in/triciaball
