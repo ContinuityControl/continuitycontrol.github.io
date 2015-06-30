@@ -4,8 +4,8 @@ title: "Make t(we)mux Work for You"
 author: tricia_ball
 modified:
 categories: terminal, tmux, wemux
-excerpt:
-tags: []
+excerpt: A bunch of tmux tweaks that made our lives better. Maybe they can make yours better, too!
+tags: [tmux]
 image:
   feature:
 ---
@@ -26,7 +26,7 @@ inefficiently.
 
 When I started at Continuity this past January, I was thrown head-first into a
 big pool of linux, and all of its wonderful tools. I went from developing in
-JetBrains' RubyMine IDE on a mac, to ssh-ing into the "cloud" and living in
+the JetBrains' RubyMine IDE on a mac, to ssh-ing into the "cloud" and living in
 linux with tmux and developing in vim.
 
 My fingers fumbled while using tmux and navigating between tmux windows and vim
@@ -36,13 +36,14 @@ intimidating.
 One day, however, I noticed a problem I wanted solved. I was looking to change
 the color of tmux window titles depending on the title name, so I started
 digging into tmux configuration. Honestly, I'm still looking for a solution
-to this specific desire, but found plenty of other cool things along the way.
+to this specific desire (so if you have an idea.... send me a tweet!), but
+found plenty of other cool things along the way.
 
 
 # The real meat (or tofu)
 
 ## Issue 1 - Not in expected directory:
-I would create a new tmux window, run a command, and receive an "I have not
+I would create a new tmux window, run a command, and receive an "I have no
 clue what you're talking about" error. Inevitably, I would create my new window
 and it would take me to the directory in which I was in when I first logged in
 to tmux. However, that often was that the directory where I would want to work.
@@ -61,7 +62,7 @@ and allows me to switch projects mid-session, and can easily assume I'm in the c
 directory without having to double-check.
 
 ## Issue 2 - What tab am I trying to view?
-Throughout the course of a tmux session, I often open and clothes several tmux
+Throughout the course of a tmux session, I often open and close several tmux
 windows based on my needs.  By default, the tmux windows retain the same
 identifying number. This means I can create 4 windows and close the first
 three, causing the window now visually in the first slot, to be window #3 (on a
@@ -165,7 +166,7 @@ option :m, 'minutes num', 'run with custom minutes' do |num|
 end
 ```
 
-I then integrated it with tmux.
+I then integrated it with tmux in the .tmux.conf file.
 
 ```
 set-option -g status-right '#(cat ~/.thyme-tmux)'
@@ -180,7 +181,8 @@ I didn't want us to have to think about running
 $ thyme -d
 ```
 
-anytime we wanted to start a timer. If that were the case, it wouldn't get used. So I added in some tmux key bindings.
+anytime we wanted to start a timer in the background. If that were the case, it
+wouldn't get used, ever. So I added in some tmux key bindings and a tmux prompt.
 
 ```
 bind t command-prompt -p "Timer type? p: pomoodoro; b: break; l: long break; m <mins>: custom minutes" "run -b 'thyme -d%1 %2'"
@@ -194,5 +196,37 @@ That not enough?
 
 Okay, it wasn't for me, either. Being on a remote server, passing sounds and messages over to our local machines did not seem like
 a practical change. However, it wasn't super obvious when a timer ended. Because of this, I updated it so the status bar
-turns magenta
+turns magenta after a timer ends.
 
+To do this, I used thyme's before and after hooks, and updated the colors using our Solarized color scheme.
+
+```
+before do
+  `tmux set-option -g status-bg black`
+end
+
+after do |seconds_left|
+  if @tmux
+    `tmux set-option -g status-bg magenta`
+  end
+end
+```
+
+I also did not want to have to deal with a pink bar when I was not worried about the timer, so I added a reset option that hooked into my tmux
+key binding.
+
+```
+option :r, :reset, 'reset status bar' do
+  `tmux set-option -g status-bg black`
+end
+```
+
+This allows us to use ctrl+A r to reset the status bar color.
+
+## That's it for now
+I am sure over time I will find some other useful tmux tweaks to put in place, but this is working well for us, now. Feel free to check out our public dotfiles repo if you
+want to see any of these settings in full. Specifically, here is our [.thymerc](https://github.com/ContinuityControl/dotfiles/blob/master/home/.thymerc) and our [.tmux.conf](https://github.com/ContinuityControl/dotfiles/blob/master/home/.tmux.conf)
+
+It's been a pleasure.
+
+:wq
