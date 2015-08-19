@@ -23,7 +23,7 @@ void draw() {
 
 void drawGears(float x, float y, int numTeeth, int radius) {
   color darkBlue = #00263C; // <- the new blue. the old blue: #002545;
-  color green = #4CBD38;
+  color green = #33cc00; //#4CBD38;
   fill(green);
   noStroke();
 
