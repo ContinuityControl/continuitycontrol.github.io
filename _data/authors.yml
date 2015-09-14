@@ -79,6 +79,15 @@ tricia_ball:
   twitter: tricialball
   linkedin: in/triciaball
 
+tom_reznick:
+  name: Tom Reznick
+  email: treznick@continuity.net
+  avatar: tom_reznick.jpg
+  twitter: threznick
+  github: treznick
+  linkedin: in/treznick
+  bio: "Jack of all trades, <a href='https://www.youtube.com/watch?v=ZZ5LpwO-An4' target='_blank'>master of the universe</a>"
+
 # Pairs
 tridar:
   name: "Daria Tan && Tricia Ball"
