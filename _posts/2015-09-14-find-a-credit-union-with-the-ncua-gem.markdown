@@ -1,5 +1,6 @@
 ---
 title: Find a Credit Union With the NCUA Gem
+date: 2015-09-14T15:22:49+00:00
 author: tom_reznick
 excerpt: The NCUA uses asynchronous JSON requests to find a Credit Union. We make a Gem for that.
 ---
