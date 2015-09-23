@@ -16,8 +16,9 @@ A "flickering" spec is one that seemingly randomly passes on some runs of the sp
 
 Non-deterministic tests can take a lot of time and effort to fix, since it can take many runs of the spec to figure out whether you've fixed the situation. Sometimes we may need to punt on fixing a flickering spec immediately, but we really shouldn't settle for an erratically-red build.
 
-Capybara tries to fix this by (magic, link to their thing explaining why wait is unnecessary)
-Capybara's README says “Powerful synchronization features mean you never have to manually wait for asynchronous processes to complete.” - but it doesn't work 100% of the time.
+Capybara is the most popular ruby testing library used to automate interaction with the site in-browser. Capybara can cleverly figure out what page-rendering details to wait for in most cases, and you [don't normally have to use `wait_until` in Capybara](http://www.elabs.se/blog/53-why-wait_until-was-removed-from-capybara) either.
+
+
 Our example: background tasks have to run and they take longer than the timeout?
 Related Flickering Techniques
 Capybara can wait for AJAX `page.has_content? 'Text that shows up after ajax call'` and `page.has_no_content? 'Text that goes off screen after ajax call success'`.
