@@ -16,6 +16,9 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 
 * Add yourself to `_data/authors.yml`
 * Add your head-in-a-jar avatar to the `images` directory
+  * To get this from gravatar
+    * `require 'digest'; puts "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest(shared_email.downcase)}?s=200"`
+    * For more information: https://en.gravatar.com/site/implement/images/
 
 ## Full Cycle Blog Posting
 

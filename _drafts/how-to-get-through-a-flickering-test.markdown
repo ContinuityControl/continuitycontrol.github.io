@@ -9,13 +9,12 @@ image:
   feature:
 ---
 
-# Gifs!
-http://giphy.com/gifs/hanasaku-iroha-stoplight-ulMgEMzPIC0W4
-http://giphy.com/gifs/stop-go-stoplight-F1Z5fkQKLA3bW
-http://giphy.com/gifs/90s-kablam-retro-cartoons-lrIUUhWko5e8
-
 # Red, Green, Red Again? WTF
-Some of our specs 'flicker'. It's pretty annoying. This occurs when we have a race condition in our code. It occurs sometimes when we queue a job in the background and it doesn't execute in time, or we make an AJAX call from the client and the server is taking time to respond. It ends up meaning that the code will sometimes run fast enough that it passes the spec, and sometimes it fails. It's an incredibly difficult problem to fix. Sometimes we may need to punt on fixing a flickering spec, but that means we get red builds and that makes us sad.
+![Red light! ..... green light!](/images/stoplight.gif)
+
+A "flickering" spec is one that seemingly randomly passes on some runs of the spec and fails on others. It's a non-deterministic test, usually from a race condition - the "winner" of the race isn't "determined" ahead of time. Sometimes it occurs when an AJAX call from the client to the server is taking time to respond. Sometimes it occurs when a job is queued in the background and it doesn’t execute in time. Sometimes it occurs from a race condition on the javascript event loop directly, where maybe we should be using callbacks.
+
+Non-deterministic tests can take a lot of time and effort to fix, since it can take many runs of the spec to figure out whether you've fixed the situation. Sometimes we may need to punt on fixing a flickering spec immediately, but we really shouldn't settle for an erratically-red build.
 
 Capybara tries to fix this by (magic, link to their thing explaining why wait is unnecessary)
 Capybara's README says “Powerful synchronization features mean you never have to manually wait for asynchronous processes to complete.” - but it doesn't work 100% of the time.
