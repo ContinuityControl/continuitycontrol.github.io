@@ -244,10 +244,3 @@ function runAllTestsFromTheMenu_() {
   });
 }
 {% endhighlight %}
-
-
-
-
-
-
-
