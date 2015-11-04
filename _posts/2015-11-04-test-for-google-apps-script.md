@@ -1,8 +1,7 @@
 ---
 title:  "Automated Tests for Google Apps Script"
-date:   2015-11-04 09:00:00
+date:   2015-11-04 15:00:00
 author: dan_bernier
-categories: testing, javascript
 excerpt: "What do you do when you're writing Google Spreadsheet extensions in JavaScript, and you want automated tests? Build your own tiny testing framework."
 ---
 
@@ -53,7 +52,7 @@ function allTests(thisFnWrapsAllYourTests) {
 }
 {% endhighlight %}
 
-That's the bones of most testing frameworks: 
+That's the bones of most testing frameworks:
 
 * a place to run your code, and check that you got what you expected
 * a framework around that, to track it all, and report back
@@ -182,7 +181,7 @@ function allTests(thisFnWrapsAllYourTests) {
   });
 }
 
-function runAllTestsFromTheMenu_() { 
+function runAllTestsFromTheMenu_() {
   allTests(function(t) {
     t.describe("averaging", function() {
       t.areClose(4.0/3, average([1,1,2]));
@@ -234,13 +233,15 @@ function allTests(thisFnWrapsAllYourTests) {
   });
 }
 
-function runAllTestsFromTheMenu_() { 
+function runAllTestsFromTheMenu_() {
   allTests(function(t) {
     t.describe("map", function() {
       var input = [1,2,3];
       var expected = [10,20,30];
       t.listMatch(expected, map(input, function(x) { return x * 10; }));
-    }); 
+    });
   });
 }
 {% endhighlight %}
+
+_Thanks to Casey for reviewing this!_
