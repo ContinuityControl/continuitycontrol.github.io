@@ -29,6 +29,13 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 * Publish with: `octopress publish _drafts/your-title-goes-here.md`
 * Commit and push
 
+## Posting via Prose.io
+
+* go to prose.io
+* login with your github account (probably with access to public repos only)
+* make a new `.md` file in `_drafts`, save as often as you'd like
+* preview toggle / publish using their buttons
+
 ## How to Change the CSS
 
 `vim css/main.css`
