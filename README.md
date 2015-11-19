@@ -31,8 +31,7 @@ Lots more info about blogging w/ jekyll is available from [Jekyll](http://jekyll
 
 ## Posting via Prose.io
 
-* go to prose.io
-* login with your github account (probably with access to public repos only)
+* go to prose.io, login with your github account (probably with access to public repos only)
 * make a new `.md` file in `_drafts`, save as often as you'd like
 * preview toggle / publish using their buttons
 
