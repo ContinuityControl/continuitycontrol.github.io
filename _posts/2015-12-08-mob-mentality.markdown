@@ -36,7 +36,7 @@ The important things to note from this image are the 'Mob' and the 'Laptop'. The
 
 Many of us had little to no experience with the language being used. This is why we had the Expert role. This person was available to answer questions regarding syntax and capabilities of the language being used. S/he could give advise regarding the language, but not on how we solved the exercise, and had to remain 'hands-off' of the laptop.  There was also the Facilitator role, which for my two sessions was filled by Llewellyn Falco, who made sure we were following the Mob Programming process (which can be tempting to stray from) properly.
 
-##And They All Rolled Over And One Fell Out
+## And They All Rolled Over And One Fell Out
 During my experience, we used a timer that went off in 4 minute intervals. Every time the timer rang, roles would change. The Navigator would move to the Driver position, the Driver would move to the end of the Mob, and the first person in the Mob would become the Navigator. We worked on a [Code Kata](http://codekata.com/) which asked us to create a solution to do addition in Roman Numerals (i.e. III + VI = IX). As we worked to solve this, we kept rotating through the roles and the mob every 4 minutes to our new position.
 
 From my understanding, Mob Programming sessions can adjust their timer values to what best fits their team, but 4 minutes worked really well for this experience, especially for someone like me who is shy, and nervous about coding in front of people. This allowed me to get up there while navigating, express my thoughts, and if I stumbled a little, I knew I wouldn't be there long enough to fall on my face.
