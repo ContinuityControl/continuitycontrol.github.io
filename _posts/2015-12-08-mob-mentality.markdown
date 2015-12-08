@@ -1,5 +1,6 @@
 ---
 title: "Mob Mentality"
+date: 2015-12-08T16:41:58-06:00
 author: tricia_ball
 layout: post
 categories: languages, methodologies
