@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
-gem 'jekyll'
-gem "jekyll-sitemap"
 gem 'octopress', '~> 3.0'
+gem 'pygments.rb'
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+end
